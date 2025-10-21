@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Number Conversion Board</title>
+</head>
+<body>
+    <h1>Number Conversion Board</h1>
+
+    <main>
+        <section>
+            <label for="decimal">Write a Decimal Number</label>
+            <input type="number" id="decimal">
+        </section>
+        <fieldset>
+            <legend>Binary</legend>
+            <div id="binary"></div>
+        </fieldset>
+        <fieldset>
+            <legend>Octal</legend>
+            <span id="octal"></span>
+        </fieldset>
+        <fieldset>
+            <legend>Hexadecimal</legend>
+            <span id="hexadecimal"></span>
+        </fieldset>
+        <button type="button" id="convert">Convert</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
